@@ -3,3 +3,7 @@ go:
   - 1.6
   - 1.7
   - 1.8
+script:
+  - go build decr1.go
+  - go build decr2.go
+  - go build hello.go
