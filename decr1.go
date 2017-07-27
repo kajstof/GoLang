@@ -1,14 +1,14 @@
-package main
+package decr1
 
-func decr1(n uint64) {
+func decr(n uint64) {
     for n > 0 {
         n--
     }
 }
 
-func main() {
-    decr1(10000000000)
-    decr1(10000000000)
-    decr1(10000000000)
-    decr1(10000000000)
+func decr1() {
+    decr(10000000000)
+    decr(10000000000)
+    decr(10000000000)
+    decr(10000000000)
 }
