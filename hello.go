@@ -4,8 +4,6 @@ import "fmt"
 import "math"
 import "strings"
 import "sort"
-import "decr1"
-import "decr2"
 //import "os"
 //import "log"
 //import "io/ioutil"
@@ -140,8 +138,6 @@ func main() {
     listOfNums := strings.Join([]string{"3", "2", "1"}, ", ")
     fmt.Println("Numbers: ", listOfNums)
     fmt.Println(":)")
-    decr1.decr1()
-    decr2.decr2()
 }
 
 func addThemUp(numbers []float64) float64 {
