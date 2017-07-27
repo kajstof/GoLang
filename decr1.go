@@ -6,7 +6,7 @@ func decr1(n uint64) {
     }
 }
 
-func main() {
+func main1() {
     decr1(10000000000)
     decr1(10000000000)
     decr1(10000000000)
